@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css"> 
+    
+   <link
+   rel="icon"
+   type="image/png"
+   sizes="32x32"
+   href="logo.png"
+ />
+    <title>Breast cancer prediction</title>
+</head>
+<body>
+   
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo"><img src="logo.png" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Faqs</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+        <section class="Abt" id="about">
+            <div class="paras">
+            <p class="sectionTag">Breast cancer can occur in women and rarely in men.</p>
+            
+                <p class = "subsectionTag">Symptoms of breast cancer include a lump in the breast, bloody discharge from the nipple and changes in the shape or texture of the nipple or breast.
+                Its treatment depends on the stage of cancer. It may consist of chemotherapy, radiation, hormone therapy and surgery. 
+            </p>
+            </div>
+            <div class="Abt">
+                <img src="bcc.jpg" alt="logo">
+            </div>
+            <hr>
+            <br>
+            <section class ="FAQS" id="services">
+                <div class ="question">
+                    <p class="questions">Q.1. What Is Breast Cancer?
+                    </p>
+                    <p class ="Ans">Breast cancer is a type of cancer that starts in the breast. It can start in one or both breasts.
+
+                    </p>
+                    <br>
+                    <p class="question">Q.2. Where breast cancer starts ?</p>
+                    <p class="ans">Breast cancers can start from different parts of the breast. 
+                        The breast is an organ that sits on top of the upper ribs and chest muscles. There is a left and right breast and each one has mainly glands, ducts, and fatty tissue. In women, the breast makes and delivers milk to feed newborns and infants. 
+                        The amount of fatty tissue in the breast determines the size of each breast.</p>
+                        <br>
+                    <p class="question">Q.3. How breast cancer spreads ?</p>
+                    <p class ="Ans">Breast cancer can spread when the cancer cells get into the blood or lymph system and then are carried to other parts of the body. 
+                        The lymph (or lymphatic) system is a part of your body's immune system. It is a network of lymph nodes (small, bean-sized glands), ducts or vessels, and organs that work together to collect and carry clear lymph fluid through the body tissues to the blood. 
+                        The clear lymph fluid inside the lymph vessels contains tissue by-products and waste material, as well as immune system cells.</p>
+                <br>
+                        <p class ="question">Q.4. Types of breast cancer?</p>
+                <p class ="ans">There are many different types of breast cancer. The type is determined by the specific kind of cells in the breast that are affected. Most breast cancers are carcinomas. The most common breast cancers such as ductal carcinoma in situ (DCIS) and invasive carcinoma are adenocarcinomas, since the cancers start in the gland cells in the milk ducts or the lobules (milk-producing glands). Other kinds of cancers can grow in the breast, like angiosarcoma or sarcoma, 
+                    but are not considered breast cancer since they start in different cells of the breast.</p>
+                    <br>
+                    <p class ="question">Q.5. How can I lower my chances of getting breast cancer? </p>
+                    <p class ="ans">Research is being done on ways to prevent breast cancer. Although there is no known way to completely prevent breast cancer, there are ways to lower your risk. These include:
+
+                        Drinking less alcohol
+                        Getting regular exercise
+                        Staying at a healthy weight
+                        Breastfeeding (exclusively breast feeding during your baby's first 6 months, and continuing for 12 months or longer)</p>
+                    </div>
+            </section>
+            <br>
+
+
+            <hr>
+            <br>
+
+             <div class="container-contact100">
+                <div class="wrap-contact100">
+                    <form action="/predict" class="contact100-form validate-form" method="post">
+                        <span class="contact100-form-title">
+                            <h1>CANCER PREDICTION</h1>
+                </span>
+                <span style="text-align:center; font-size:2rem; color:#175385;"><h3>
+                {{ prediction_text }}<br>
+                </h3></span>
+                <span>
+                <br>
+                    <h3>Note :<br></h3>
+                    <h4 style="color:Tomato;"> [1] : Malignant:<br> It means there are high chances of the patient having CANCER!</h4>
+                    <br><h4 style="color:DodgerBlue;">[0] : Benign:<br> It means the patient has no significant sign of having CANCER!</h4>
+                </span>
+                
+                <span class="contact100-form-title"><h5></h5></span>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Radius Mean is required">
+                            <span class="label-input100">Radius Mean</span>
+                            <input class="input100" type="text" name="radius_mean" placeholder="Enter Radius Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Texture Mean is required">
+                            <span class="label-input100">Texture Mean</span>
+                            <input class="input100" type="text" name="texture_mean" placeholder="Enter Texture Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Perimeter Mean is required">
+                            <span class="label-input100">Perimeter Mean</span>
+                            <input class="input100" type="text" name="perimeter_mean" placeholder="Enter Perimeter Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Area Mean is required">
+                            <span class="label-input100">Area Mean</span>
+                            <input class="input100" type="text" name="area_mean" placeholder="Enter Area Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Smoothness Mean is required">
+                            <span class="label-input100">Smoothness Mean</span>
+                            <input class="input100" type="text" name="smoothness_mean" placeholder="Enter Smoothness Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Compactness Mean is required">
+                            <span class="label-input100">Compactness Mean</span>
+                            <input class="input100" type="text" name="compactness_mean" placeholder="Enter Compactness Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Concavity Mean is required">
+                            <span class="label-input100">Concavity Mean</span>
+                            <input class="input100" type="text" name="concavity_mean" placeholder="Enter Concavity Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Concave Point Mean is required">
+                            <span class="label-input100">Concave Point Mean</span>
+                            <input class="input100" type="text" name="concave points_mean" placeholder="Enter Concave Point Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Symmetry Mean is required">
+                            <span class="label-input100">Symmetry Mean</span>
+                            <input class="input100" type="text" name="symmetry_mean" placeholder="Enter Symmetry Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Fractal Dimension Mean is required">
+                            <span class="label-input100">Fractal Dimension Mean</span>
+                            <input class="input100" type="text" name="fractal_dimension_mean" placeholder="Enter Fractal Dimension Mean" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+        
+        
+                        <div class="wrap-input100 validate-input" data-validate="Radius SE is required">
+                            <span class="label-input100">Radius SE</span>
+                            <input class="input100" type="text" name="radius_se" placeholder="Enter Radius SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Texture SE is required">
+                            <span class="label-input100">Texture SE</span>
+                            <input class="input100" type="text" name="texture_se" placeholder="Enter Texture SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Perimeter SE is required">
+                            <span class="label-input100">Perimeter SE</span>
+                            <input class="input100" type="text" name="perimeter_se" placeholder="Enter Perimeter SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Area SE is required">
+                            <span class="label-input100">Area SE</span>
+                            <input class="input100" type="text" name="area_se" placeholder="Enter Area SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Smoothness SE is required">
+                            <span class="label-input100">Smoothness SE</span>
+                            <input class="input100" type="text" name="smoothness_se" placeholder="Enter Smoothness SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Compactness SE is required">
+                            <span class="label-input100">Compactness SE</span>
+                            <input class="input100" type="text" name="compactness_se" placeholder="Enter Compactness SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Concavity SE is required">
+                            <span class="label-input100">Concavity SE</span>
+                            <input class="input100" type="text" name="concavity_se" placeholder="Enter Concavity SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Concave Point SE is required">
+                            <span class="label-input100">Concave Point SE</span>
+                            <input class="input100" type="text" name="concave points_se" placeholder="Enter Concave Point SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Symmetry SE is required">
+                            <span class="label-input100">Symmetry SE</span>
+                            <input class="input100" type="text" name="symmetry_se" placeholder="Enter Symmetry SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Fractal Dimension SE is required">
+                            <span class="label-input100">Fractal Dimension SE</span>
+                            <input class="input100" type="text" name="fractal_dimension_se" placeholder="Enter Fractal Dimension SE" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+        
+        
+                        <div class="wrap-input100 validate-input" data-validate="Radius Worst is required">
+                            <span class="label-input100">Radius Worst</span>
+                            <input class="input100" type="text" name="radius_worst" placeholder="Enter Radius Worst" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Texture Worst is required">
+                            <span class="label-input100">Texture Worst</span>
+                            <input class="input100" type="text" name="texture_worst" placeholder="Enter Texture Worst" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Perimeter Worst is required">
+                            <span class="label-input100">Perimeter Worst</span>
+                            <input class="input100" type="text" name="perimeter_worst" placeholder="Enter Perimeter Worst" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Area Worst is required">
+                            <span class="label-input100">Area Worst</span>
+                            <input class="input100" type="text" name="area_worst" placeholder="Enter Area Worst" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Smoothness Worst is required">
+                            <span class="label-input100">Smoothness Worst</span>
+                            <input class="input100" type="text" name="smoothness_worst" placeholder="Enter Smoothness Worst" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Compactness Worst is required">
+                            <span class="label-input100">Compactness Worst</span>
+                            <input class="input100" type="text" name="compactness_worst" placeholder="Enter Compactness Worst" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Concavity Worst is required">
+                            <span class="label-input100">Concavity Worst</span>
+                            <input class="input100" type="text" name="concavity_worst" placeholder="Enter Concavity Worst" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Concave Point Worst is required">
+                            <span class="label-input100">Concave Point Worst</span>
+                            <input class="input100" type="text" name="concave points_worst" placeholder="Enter Concave Point Worst" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Symmetry Worst is required">
+                            <span class="label-input100">Symmetry Worst</span>
+                            <input class="input100" type="text" name="symmetry_worst" placeholder="Enter Symmetry Worst" required="required">
+                            <span class="focus-input100"></span>
+                        </div>
+        
+                        <div class="wrap-input100 validate-input" data-validate="Fractal Dimension Worst is required">
+                            <span class="label-input100">Fractal Dimension Worst</span>
+                            <input class="input100" type="text" name="fractal_dimension_worst" placeholder="Enter Fractal Dimension Worst" required="required">
+                            <span class="focus-input100"></span>
+                </div>
+                
+                <div class="container-contact100-form-btn">
+                            <div class="wrap-contact100-form-btn">
+                                <div class="contact100-form-bgbtn"></div>
+                                <button class="contact100-form-btn" type = "submit">
+                                    <span>
+                                        Predict
+                                        <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+        
+                        
+                    </form>
+                </div>
+            </div>
+
+
+
+            <section class="contact" id="contact">
+                <h1 class="text-center">contact </h1>
+                <div class="form">
+                    <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name">
+                    <input class="form-input" type="text" name="phone" id="phone" placeholder=" Enter Your Phone No.">
+                    <input class="form-input" type="text" name="email" id="email" placeholder="Enter Your E-mail ">
+                    <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Elaborate Your Concern"></textarea>
+                    <button class="btn">Submit</button>
+                </div>
+             </section>
