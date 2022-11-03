@@ -54,3 +54,31 @@ The female breast is mostly made up of a collection of fat cells called adipose 
 
 ## Lobes, Lobules, And Milk Ducts
 A healthy female breast is made up of 12–20 sections called lobes. Each of these lobes is made up of many smaller lobules, the gland that produces milk in nursing women. Both the lobes and lobules are connected by milk ducts, which act as stems or tubes to carry the milk to the nipple. These breast structures are generally where the cancer begins to form.
+
+## Environmental And Lifestyle Risk Factors
+*Lack of Physical Activity:*  A sedentary lifestyle with little physical activity can increase your risk for breast cancer.
+
+*Poor Diet:*  A diet high in saturated fat and lacking fruits and vegetables can increase your risk for breast cancer.  
+
+*Being Overweight or Obese:*  Being overweight or obese can increase your risk for breast cancer. Your risk is increased if you have already gone through menopause.  
+
+*Drinking Alcohol:*  Frequent consumption of alcohol can increase your risk for breast cancer. The more alcohol you consume, the greater the risk. 
+
+*Combined Hormone Replacement Therapy (HRT):*  Taking combined hormone replacement therapy, as prescribed for menopause, can increase your risk for breast cancer and increases the risk that the cancer will be detected at a more advanced stage.
+
+*Radiation to the Chest:*  Having radiation therapy to the chest before the age of 30 can increase your risk for breast cancer. 
+
+## Genetic Factors
+*Gender:* Breast cancer occurs nearly 100 times more often in women than in men.
+
+*Age:* Two out of three women with invasive cancer are diagnosed after age 55.
+
+*Race:* Breast cancer is diagnosed more often in Caucasian women than women of other races.
+
+*Obesity:* Obesity is a risk factor for both men and women.
+
+*Family History and Genetic Factors:* If your mother, sister, father or child has been diagnosed with breast or ovarian cancer, you have a higher risk of being diagnosed with breast cancer in the future. Your risk increases if your relative was diagnosed before the age of 50.  
+
+*Personal Health History:* If you have been diagnosed with breast cancer in one breast, you have an increased risk of being diagnosed with breast cancer in the other breast in the future. Also, your risk increases if abnormal breast cells have been detected before (such as atypical hyperplasia, lobular carcinoma in situ (LCIS) or ductal carcinoma in situ (DCIS)).
+
+*Menstrual and Reproductive History:* Early menstruation (before age 12), late menopause (after 55), having your first child at an older age, or never having given birth can also increase your risk for breast cancer.
