@@ -1,5 +1,3 @@
-# Breast_Cancer_Prediction.github.io
-
 ## Breast Cancer Prediction Using Machine Learning
 
 ## Overview
@@ -47,3 +45,12 @@ Many breast cancer symptoms are invisible and not noticeable without a professio
 
 ## Benign Tumors
 When a tumor is diagnosed as benign, doctors will usually leave it alone rather than remove it. Even though these tumors are not generally aggressive toward surrounding tissue, occasionally they may continue to grow, pressing on other tissue and causing pain or other problems. In these situations, the tumor is removed, allowing pain or complications to subside.
+
+## Malignant tumors
+Malignant tumors are cancerous and may be aggressive because they invade and damage surrounding tissue. When a tumor is suspected to be malignant, the doctor will perform a biopsy to determine the severity or aggressiveness of the tumor.
+
+## Adipose Tissue
+The female breast is mostly made up of a collection of fat cells called adipose tissue. This tissue extends from the collarbone down to the underarm and across to the middle of the ribcage. As a woman ages, especially once she reaches menopause, the breast tissue contains more adipose (fatty) tissue.
+
+## Lobes, Lobules, And Milk Ducts
+A healthy female breast is made up of 12–20 sections called lobes. Each of these lobes is made up of many smaller lobules, the gland that produces milk in nursing women. Both the lobes and lobules are connected by milk ducts, which act as stems or tubes to carry the milk to the nipple. These breast structures are generally where the cancer begins to form.
