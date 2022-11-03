@@ -83,6 +83,12 @@ A healthy female breast is made up of 12–20 sections called lobes. Each of the
 
 *Menstrual and Reproductive History:* Early menstruation (before age 12), late menopause (after 55), having your first child at an older age, or never having given birth can also increase your risk for breast cancer.
 
+*Breast Cancer Prediction*
+Predict the cancer if it is benign or malignant
+Using the Breast Cancer Database, we will create a classifier that can help diagnose patients and predict the likelihood of a breast cancer.
+Used various Machine Learning Algorithms to analyse and predict.
+Used 30 different columns to understand the data.
+
 # Project Demo Video:
 
 
